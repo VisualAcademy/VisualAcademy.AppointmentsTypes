@@ -1,0 +1,1 @@
+# VisualAcademy.AppointmentsTypes

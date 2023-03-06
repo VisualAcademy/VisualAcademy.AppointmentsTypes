@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy", "VisualAcad
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VisualAcademy.SqlServer", "VisualAcademy.SqlServer\VisualAcademy.SqlServer.sqlproj", "{0A2EF479-3AF8-46C8-B580-37585D6EB954}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.Tests", "VisualAcademy.Tests\VisualAcademy.Tests.csproj", "{CF6B3D50-A301-4951-B657-35FBE0A44A61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{0A2EF479-3AF8-46C8-B580-37585D6EB954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A2EF479-3AF8-46C8-B580-37585D6EB954}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0A2EF479-3AF8-46C8-B580-37585D6EB954}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CF6B3D50-A301-4951-B657-35FBE0A44A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6B3D50-A301-4951-B657-35FBE0A44A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6B3D50-A301-4951-B657-35FBE0A44A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6B3D50-A301-4951-B657-35FBE0A44A61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

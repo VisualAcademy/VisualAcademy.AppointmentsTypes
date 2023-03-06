@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33417.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy", "VisualAcademy\VisualAcademy.csproj", "{89EC39E6-A584-4253-8F8D-2FEB59876380}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VisualAcademy.SqlServer", "VisualAcademy.SqlServer\VisualAcademy.SqlServer.sqlproj", "{0A2EF479-3AF8-46C8-B580-37585D6EB954}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{89EC39E6-A584-4253-8F8D-2FEB59876380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89EC39E6-A584-4253-8F8D-2FEB59876380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89EC39E6-A584-4253-8F8D-2FEB59876380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2EF479-3AF8-46C8-B580-37585D6EB954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2EF479-3AF8-46C8-B580-37585D6EB954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2EF479-3AF8-46C8-B580-37585D6EB954}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0A2EF479-3AF8-46C8-B580-37585D6EB954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2EF479-3AF8-46C8-B580-37585D6EB954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2EF479-3AF8-46C8-B580-37585D6EB954}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,5 @@
-﻿namespace VisualAcademy.Models {
+﻿#nullable disable
+namespace VisualAcademy.Models {
     public class AppointmentType {
         public int Id { get; set; }
         public string AppointmentTypeName { get; set; }

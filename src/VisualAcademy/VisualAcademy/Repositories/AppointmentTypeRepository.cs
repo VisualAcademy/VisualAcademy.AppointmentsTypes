@@ -1,7 +1,7 @@
 ﻿using VisualAcademy.Data;
 using VisualAcademy.Models;
 
-namespace VisualAcademy.Repositores {
+namespace VisualAcademy.Repositories {
     public class AppointmentTypeRepository : IAppointmentTypeRepository {
         private readonly ApplicationDbContext _context;
 

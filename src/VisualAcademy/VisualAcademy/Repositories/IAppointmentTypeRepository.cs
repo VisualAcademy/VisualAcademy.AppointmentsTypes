@@ -1,6 +1,6 @@
 ﻿using VisualAcademy.Models;
 
-namespace VisualAcademy.Repositores {
+namespace VisualAcademy.Repositories {
     public interface IAppointmentTypeRepository {
         // 출력
         IEnumerable<AppointmentType> GetAppointmentTypes();

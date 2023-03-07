@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using VisualAcademy.Data;
 using VisualAcademy.Models;
-using VisualAcademy.Repositores;
+using VisualAcademy.Repositories;
 
 namespace VisualAcademy.Tests {
     [TestClass]

@@ -8,9 +8,7 @@ namespace VisualAcademy.Repositories {
     public class AppointmentTypeRepository : IAppointmentTypeRepository {
         private readonly ApplicationDbContext _context;
 
-        public AppointmentTypeRepository(ApplicationDbContext context) {
-            this._context = context;
-        }
+        public AppointmentTypeRepository(ApplicationDbContext context) => this._context = context;
 
         // AddAppointmentType 메서드는 새로운 예약 종류를 추가한다.
         // appointmentType 매개변수는 추가할 예약 종류 정보를 담고 있는 객체이다.

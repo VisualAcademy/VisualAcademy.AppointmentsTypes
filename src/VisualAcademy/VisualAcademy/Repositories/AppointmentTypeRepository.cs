@@ -32,9 +32,7 @@ namespace VisualAcademy.Repositories {
         // GetAppointmentType 메서드는 특정 예약 종류를 가져온다.
         // id 매개변수는 가져올 예약 종류의 Id 열 값을 나타낸다.
         // 예약 종류 객체가 반환된다.
-        public AppointmentType GetAppointmentType(int id) {
-            return _context.AppointmentTypes.Find(id);
-        }
+        public AppointmentType GetAppointmentType(int id) => _context.AppointmentTypes.Find(id);
 
         // GetAppointmentTypes 메서드는 모든 예약 종류를 가져온다.
         // 예약 종류 컬렉션이 반환된다.

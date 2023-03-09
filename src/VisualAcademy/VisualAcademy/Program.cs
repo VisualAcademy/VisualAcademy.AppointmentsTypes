@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using VisualAcademy.Data;
+using VisualAcademy.Repositories;
 
 // ASP.NET Core 앱의 생성자
 // ASP.NET Core 앱의 구성, 서비스 구성, 미들웨어 구성 등을 담당한다.
@@ -16,6 +17,8 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IAppointmentTypeRepositoryAsync, AppointmentTypeRepositoryAsync>();
 
 // 앱 빌드
 var app = builder.Build();

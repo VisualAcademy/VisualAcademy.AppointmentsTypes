@@ -8,7 +8,10 @@
 // DateCreated 프로퍼티는 DateTime 형으로, AppointmentsTypes 테이블의 DateCreated 열과 매핑된다. 이 프로퍼티는 getter와 setter를 모두 가지고 있다.
 
 #nullable disable
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace VisualAcademy.Models {
+    [Table("AppointmentsTypes")]
     public class AppointmentType {
         public int Id { get; set; }
         public string AppointmentTypeName { get; set; }

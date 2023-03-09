@@ -1,0 +1,34 @@
+﻿@model VisualAcademy.Models.AppointmentType
+
+<h1>Delete</h1>
+
+<h4>Appointment Type</h4>
+<hr />
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.AppointmentTypeName)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.AppointmentTypeName)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.IsActive)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.IsActive)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.DateCreated)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.DateCreated)
+    </dd>
+</dl>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </div>
+</form>

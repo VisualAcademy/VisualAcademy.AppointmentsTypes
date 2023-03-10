@@ -20,9 +20,7 @@ namespace VisualAcademy.Controllers {
 
         // 새로운 예약 종류를 추가하는 Create.cshtml 뷰 페이지를 반환한다.
         // GET: AppointmentTypes/Create
-        public IActionResult Create() {
-            return View();
-        }
+        public IActionResult Create() => View();
 
         // 새로운 예약 종류를 추가한다.
         // AppointmentType 모델 바인딩을 사용하고, ModelState.IsValid 속성을 사용하여 모델 유효성 검사를 수행한다.

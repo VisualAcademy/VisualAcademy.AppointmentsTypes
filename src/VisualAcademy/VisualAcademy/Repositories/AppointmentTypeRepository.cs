@@ -34,9 +34,7 @@ namespace VisualAcademy.Repositories {
 
         // GetAppointmentTypes 메서드는 모든 예약 종류를 가져온다.
         // 예약 종류 컬렉션이 반환된다.
-        public IEnumerable<AppointmentType> GetAppointmentTypes() {
-            return _context.AppointmentTypes.ToList();
-        }
+        public IEnumerable<AppointmentType> GetAppointmentTypes() => _context.AppointmentTypes.ToList();
 
         // UpdateAppointmentType 메서드는 예약 종류 정보를 수정한다.
         // appointmentType 매개변수는 수정할 예약 종류 정보를 담고 있는 객체이다.

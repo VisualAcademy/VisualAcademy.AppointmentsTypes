@@ -8,9 +8,7 @@ namespace VisualAcademy.Repositories {
     public class AppointmentTypeRepositoryAsync : IAppointmentTypeRepositoryAsync {
         private readonly ApplicationDbContext _context;
 
-        public AppointmentTypeRepositoryAsync(ApplicationDbContext context) {
-            _context = context;
-        }
+        public AppointmentTypeRepositoryAsync(ApplicationDbContext context) => _context = context;
 
         // AddAppointmentType 메서드는 새로운 예약 종류를 추가하고, 데이터베이스에 변경 사항을 비동기적으로 저장한다.
         public async Task AddAppointmentType(AppointmentType appointmentType) {

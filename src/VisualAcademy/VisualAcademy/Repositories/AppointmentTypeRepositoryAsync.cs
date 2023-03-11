@@ -24,9 +24,7 @@ namespace VisualAcademy.Repositories {
         }
 
         // GetAppointmentType 메서드는 특정 예약 종류를 가져와 비동기적으로 반환한다.
-        public async Task<AppointmentType> GetAppointmentType(int id) {
-            return await _context.AppointmentTypes.FindAsync(id);
-        }
+        public async Task<AppointmentType> GetAppointmentType(int id) => await _context.AppointmentTypes.FindAsync(id);
 
         // GetAppointmentTypes 메서드는 모든 예약 종류를 가져와 컬렉션으로 비동기적으로 반환한다.
         public async Task<IEnumerable<AppointmentType>> GetAppointmentTypes() {

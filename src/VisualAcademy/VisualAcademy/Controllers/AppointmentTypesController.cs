@@ -8,9 +8,7 @@ public class AppointmentTypesController : Controller {
     private readonly IAppointmentTypeRepositoryAsync _repository;
 
     // 생성자에서 IAppointmentTypeRepositoryAsync 의존성 주입을 받는다.
-    public AppointmentTypesController(IAppointmentTypeRepositoryAsync repository) {
-        _repository = repository;
-    }
+    public AppointmentTypesController(IAppointmentTypeRepositoryAsync repository) => _repository = repository;
 
     // 모든 예약 종류를 가져와 Index.cshtml 뷰 페이지를 반환한다.
     // GET: AppointmentTypes

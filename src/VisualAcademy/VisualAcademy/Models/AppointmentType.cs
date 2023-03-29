@@ -10,12 +10,11 @@
 #nullable disable
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace VisualAcademy.Models {
-    [Table("AppointmentsTypes")]
-    public class AppointmentType {
-        public int Id { get; set; }
-        public string AppointmentTypeName { get; set; }
-        public bool IsActive { get; set; }
-        public DateTime DateCreated { get; set; }
-    }
+namespace VisualAcademy.Models; 
+[Table("AppointmentsTypes")]
+public class AppointmentType {
+    public int Id { get; set; }
+    public string AppointmentTypeName { get; set; }
+    public bool IsActive { get; set; }
+    public DateTime DateCreated { get; set; }
 }
